@@ -15,13 +15,577 @@ body
 }
 
 
-h1, h2, h3
-{
+ {
 	margin: 0;
 	padding: 0;
 	font-weight: 700;
 	color: #2B3F48;
 }
+
+.profilegeneric {
+	float: left;
+	margin: 20px;
+	width: 200px;
+	height: 300px;
+	background: #C30707;
+	box-sizing:  border-box;
+	border-radius:10x;
+	overflow:hidden;
+	box-shadow:0 20px 20px rgba(0,0,0,.2);
+}
+
+.profilegeneric img {
+width: 200px;
+height: 200px;
+object-fit: cover;
+
+}
+
+.detailsgeneric {
+height: 40%;
+width: 100%;
+background: #fff;
+text-align: center;
+padding: 20px;
+box-sizing: border-box;
+transition: .5s;
+}
+.detailsgeneric h2 {
+margin: 0;
+padding: 0;
+color:black;
+font-size: 18px;
+text-transform: uppercase;
+}
+
+.detailsgeneric h2 span {
+font-size: 14px;
+color: #ccc;
+}
+.detailsgeneric p {
+margin: 0;
+padding: 10px 0 0 ;
+font-size: 14px;
+color: #aaa;
+}
+		/* ADITYA */
+
+					.profileaditya {
+						position: absolute;
+						top:110%;
+						left: 10%;
+						transform:  translateX(-50%, -50%);
+						width: 200px;
+						height: 300px;
+						background: #C30707;
+						box-sizing:  border-box;
+						border-radius:10x;
+						overflow:hidden;
+						box-shadow:0 20px 20px rgba(0,0,0,.2);
+					}
+					.profileaditya img {
+					width: 100%;
+					}
+
+					.detailsaditya {
+					height: 40%;
+					width: 100%;
+					background: #fff;
+					position: absolute;
+					bottom: 0;
+					text-align: center;
+					padding: 20px;
+					box-sizing: border-box;
+					transition: .5s;
+					}
+					.detailsaditya h2 {
+					margin: 0;
+					padding: 0;
+					color:black;
+					font-size: 18px;
+					text-transform: uppercase;
+					}
+
+					.detailsaditya h2 span {
+					font-size: 14px;
+					color: #ccc;
+					}
+					.detailsaditya p {
+					margin: 0;
+					padding: 10px 0 0 ;
+					font-size: 14px;
+					color: #aaa;
+					}
+
+
+					/* ADITI */
+					.profileaditi {
+						position: absolute;
+						top:110%;
+						left: 30%;
+						transform:  translateX(-50%, -50%);
+						width: 200px;
+						height: 300px;
+						background: #C30707;
+						box-sizing:  border-box;
+						border-radius:10x;
+						overflow:hidden;
+						box-shadow:0 20px 20px rgba(0,0,0,.2);
+					}
+					.profileaditi img {
+					width: 100%;
+					}
+					.detailsaditi {
+					height: 40%;
+					width: 100%;
+					background: #fff;
+					position: absolute;
+					bottom: 0;
+					text-align: center;
+					padding: 20px;
+					box-sizing: border-box;
+					transition: .5s;
+					}
+					.detailsaditi h2 {
+					margin: 0;
+					padding: 0;
+					color:black;
+					font-size: 18px;
+					text-transform: uppercase;
+					}
+					.detailsaditi h2 span {
+					font-size: 14px;
+					color: #ccc;
+					}
+					.detailsaditi p {
+					margin: 0;
+					padding: 10px 0 0 ;
+					font-size: 14px;
+					color: #aaa;
+					}
+
+
+					/* JACK */
+					.profilejack {
+						position: absolute;
+						top:110%;
+						left: 50%;
+						transform:  translateX(-50%, -50%);
+						width: 200px;
+						height: 300px;
+						background: #white;
+						box-sizing:  border-box;
+						border-radius:10x;
+						overflow:hidden;
+						box-shadow:0 20px 20px rgba(0,0,0,.2);
+					}
+					.profilejack img {
+					width: 100%;
+					}
+					.detailsjack {
+					height: 40%;
+					width: 100%;
+					background: #fff;
+					position: absolute;
+					bottom: 0;
+					text-align: center;
+					padding: 20px;
+					box-sizing: border-box;
+					transition: .5s;
+					}
+					.detailsjack h2 {
+					margin: 0;
+					padding: 0;
+					color:black;
+					font-size: 18px;
+					text-transform: uppercase;
+					}
+					.detailsjack h2 span {
+					font-size: 14px;
+					color: #ccc;
+					}
+					.detailsjack p {
+					margin: 0;
+					padding: 10px 0 0 ;
+					font-size: 14px;
+					color: #aaa;
+					}
+
+					/* SRUSHTI */
+					.profilesrushti {
+						position: absolute;
+						top:110%;
+						left: 70%;
+						transform:  translateX(-50%, -50%);
+						width: 200px;
+						height: 300px;
+						background: #white;
+						box-sizing:  border-box;
+						border-radius:10x;
+						overflow:hidden;
+						box-shadow:0 20px 20px rgba(0,0,0,.2);
+					}
+					.profilesrushti img {
+					width: 100%;
+					}
+					.detailssrushti {
+					height: 40%;
+					width: 100%;
+					background: #fff;
+					position: absolute;
+					bottom: 0;
+					text-align: center;
+					padding: 20px;
+					box-sizing: border-box;
+					transition: .5s;
+					}
+					.detailssrushti h2 {
+					margin: 0;
+					padding: 0;
+					color:black;
+					font-size: 18px;
+					text-transform: uppercase;
+					}
+					.detailssrushti h2 span {
+					font-size: 14px;
+					color: #ccc;
+					}
+					.detailssrushti p {
+					margin: 0;
+					padding: 10px 0 0 ;
+					font-size: 14px;
+					color: #aaa;
+					}
+
+
+				/* ANDIE */
+				.profileandie{
+					position: absolute;
+					top:155%;
+					left: 10%;
+					transform:  translateX(-50%, -50%);
+					width: 200px;
+					height: 300px;
+					background: #white;
+					box-sizing:  border-box;
+					border-radius:10x;
+					overflow:hidden;
+					box-shadow:0 20px 20px rgba(0,0,0,.2);
+						}
+						.profileandie img {
+						width: 100%;
+						}
+						.detailsandie {
+						height: 40%;
+						width: 100%;
+						background: #fff;
+						position: absolute;
+						bottom: 0;
+						text-align: center;
+						padding: 20px;
+						box-sizing: border-box;
+						transition: .5s;
+						}
+						.detailsandie h2 {
+						margin: 0;
+						padding: 0;
+						color:black;
+						font-size: 18px;
+						text-transform: uppercase;
+						}
+						.detailsandie h2 span {
+						font-size: 14px;
+						color: #ccc;
+						}
+						.detailsandie p {
+						margin: 0;
+						padding: 10px 0 0 ;
+						font-size: 14px;
+						color: #aaa;
+						}
+
+
+
+						/* JEFFERSON */
+						.profilejefferson{
+							position: absolute;
+							top:155%;
+							left: 30%;
+							transform:  translateX(-50%, -50%);
+							width: 200px;
+							height: 300px;
+							background: #white;
+							box-sizing:  border-box;
+							border-radius:10x;
+							overflow:hidden;
+							box-shadow:0 20px 20px rgba(0,0,0,.2);
+								}
+								.profilejefferson img {
+								width: 100%;
+								}
+								.detailsjefferson {
+								height: 40%;
+								width: 100%;
+								background: #fff;
+								position: absolute;
+								bottom: 0;
+								text-align: center;
+								padding: 20px;
+								box-sizing: border-box;
+								transition: .5s;
+								}
+								.detailsjefferson h2 {
+								margin: 0;
+								padding: 0;
+								color:black;
+								font-size: 18px;
+								text-transform: uppercase;
+								}
+								.detailsjefferson h2 span {
+								font-size: 14px;
+								color: #ccc;
+								}
+								.detailsjefferson p {
+								margin: 0;
+								padding: 10px 0 0 ;
+								font-size: 14px;
+								color: #aaa;
+								}
+
+
+								/* KAVYA */
+								.profilekavya{
+									position: absolute;
+									top:155%;
+									left: 50%;
+									transform:  translateX(-50%, -50%);
+									width: 200px;
+									height: 300px;
+									background: #white;
+									box-sizing:  border-box;
+									border-radius:10x;
+									overflow:hidden;
+									box-shadow:0 20px 20px rgba(0,0,0,.2);
+										}
+										.profilekavya img {
+										width: 100%;
+								}
+								.detailskavya {
+								height: 40%;
+								width: 100%;
+								background: #fff;
+								position: absolute;
+								bottom: 0;
+								text-align: center;
+								padding: 20px;
+								box-sizing: border-box;
+								transition: .5s;
+								}
+								.detailskavya h2 {
+								margin: 0;
+								padding: 0;
+								color:black;
+								font-size: 18px;
+								text-transform: uppercase;
+								}
+								.detailskavya h2 span {
+								font-size: 14px;
+								color: #ccc;
+								}
+								.detailskavya p {
+								margin: 0;
+								padding: 10px 0 0 ;
+								font-size: 14px;
+								color: #aaa;
+								}
+
+								/* JANVI */
+								.profilejanvi{
+									position: absolute;
+									top:155%;
+									left: 70%;
+									transform:  translateX(-50%, -50%);
+									width: 200px;
+									height: 300px;
+									background: #white;
+									box-sizing:  border-box;
+									border-radius:10x;
+									overflow:hidden;
+									box-shadow:0 20px 20px rgba(0,0,0,.2);
+										}
+										.profilejanvi img {
+										width: 100%;
+										}
+										.detailsjanvi {
+										height: 40%;
+										width: 100%;
+										background: #fff;
+										position: absolute;
+										bottom: 0;
+										text-align: center;
+										padding: 20px;
+										box-sizing: border-box;
+										transition: .5s;
+										}
+										.detailsjanvi h2 {
+										margin: 0;
+										padding: 0;
+										color:black;
+										font-size: 18px;
+										text-transform: uppercase;
+										}
+										.detailsjanvi h2 span {
+										font-size: 14px;
+										color: #ccc;
+										}
+										.detailsjanvi p {
+										margin: 0;
+										padding: 10px 0 0 ;
+										font-size: 14px;
+										color: #aaa;
+										}
+
+										/* KELLY */
+										.profilekrithika{
+											position: absolute;
+											top:200%;
+											left:10%;
+											transform:  translateX(-50%, -50%);
+											width: 200px;
+											height: 300px;
+											background: #white;
+											box-sizing:  border-box;
+											border-radius:10x;
+											overflow:hidden;
+											box-shadow:0 20px 20px rgba(0,0,0,.2);
+												}
+												.profilekrithika img {
+												width: 100%;
+												}
+												.detailskrithika{
+												height: 40%;
+												width: 100%;
+												background: #fff;
+												position: absolute;
+												bottom: 0;
+												text-align: center;
+												padding: 20px;
+												box-sizing: border-box;
+												transition: .5s;
+												}
+												.detailskrithika h2 {
+												margin: 0;
+												padding: 0;
+												color:black;
+												font-size: 18px;
+												text-transform: uppercase;
+												}
+												.detailskrithika h2 span {
+												font-size: 14px;
+												color: #ccc;
+												}
+												.detailskrithika p {
+												margin: 0;
+												padding: 10px 0 0 ;
+												font-size: 14px;
+												color: #aaa;
+												}
+
+											/* KELLY */
+											.profilekelly{
+												position: absolute;
+												top:200%;
+												left: 30%;
+												transform:  translateX(-50%, -50%);
+												width: 200px;
+												height: 300px;
+												background: #white;
+												box-sizing:  border-box;
+												border-radius:10x;
+												overflow:hidden;
+												box-shadow:0 20px 20px rgba(0,0,0,.2);
+													}
+													.profilekelly img {
+													width: 100%;
+													}
+													.detailskelly{
+													height: 40%;
+													width: 100%;
+													background: #fff;
+													position: absolute;
+													bottom: 0;
+													text-align: center;
+													padding: 20px;
+													box-sizing: border-box;
+													transition: .5s;
+													}
+													.detailskelly h2 {
+													margin: 0;
+													padding: 0;
+													color:black;
+													font-size: 18px;
+													text-transform: uppercase;
+													}
+													.detailskelly h2 span {
+													font-size: 14px;
+													color: #ccc;
+													}
+													.detailskelly p {
+													margin: 0;
+													padding: 10px 0 0 ;
+													font-size: 14px;
+													color: #aaa;
+													}
+
+
+												/* JAY */
+												.profilejay{
+													position: absolute;
+													top:200%;
+													left:50%;
+													transform:  translateX(-50%, -50%);
+													width: 200px;
+													height: 300px;
+													background: #white;
+													box-sizing:  border-box;
+													border-radius:10x;
+													overflow:hidden;
+													box-shadow:0 20px 20px rgba(0,0,0,.2);
+														}
+														.profilejay img {
+														width: 100%;
+														}
+														.detailsjay{
+														height: 40%;
+														width: 100%;
+														background: #fff;
+														position: absolute;
+														bottom: 0;
+														text-align: center;
+														padding: 20px;
+														box-sizing: border-box;
+														transition: .5s;
+														}
+														.detailsjay h2 {
+														margin: 0;
+														padding: 0;
+														color:black;
+														font-size: 18px;
+														text-transform: uppercase;
+														}
+														.detailsjay h2 span {
+														font-size: 14px;
+														color: #ccc;
+														}
+														.detailsjay p {
+														margin: 0;
+														padding: 10px 0 0 ;
+														font-size: 14px;
+														color: #aaa;
+														}
+
+
+
 
 p, ol, ul
 {
@@ -121,7 +685,7 @@ a:hover
 /* List Styles                                                                   */
 /*********************************************************************************/
 
-ul.staff
+/* ul.staff
 {
 	margin-bottom: 3em;
 }
@@ -135,7 +699,7 @@ ul.staff li img
 {
 	width: 40%;
 	border-radius: 50%;
-}
+} */
 
 
 /*********************************************************************************/
@@ -224,7 +788,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 .title
 {
-	margin-bottom: 3em;
+	margin-bottom: 2.0em;
 }
 
 .title h2
@@ -235,8 +799,10 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 .title .byline
 {
-	font-size: 1.3em;
+	font-size: 2.0em;
 	color: #6F6F6F;
+	left: 100px;
+	top: 150px;
 }
 
 @@keyframes title {
@@ -250,6 +816,11 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 		letter-spacing: 25px;
 	}
 }
+
+
+
+
+
 /*********************************************************************************/
 /* 4-column                                                                      */
 /*********************************************************************************/
@@ -537,6 +1108,8 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 {
 	color: rgba(255,255,255,.6);
 }
+
+
 
 /*********************************************************************************/
 /* Featured                                                                      */
